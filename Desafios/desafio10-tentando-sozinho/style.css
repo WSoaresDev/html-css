@@ -1,0 +1,146 @@
+@charset "UTF8";
+@font-face {
+    font-family: android;
+    src: url(fonts/idroid.otf) format(opentype);
+}
+
+
+
+body{
+    margin: 0px;
+    background-color: rgb(177, 166, 151);
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+header.primeirocabesalho{
+   background-color: rgb(5, 66, 5);
+    
+    border: 15px;
+    padding: 9px;
+
+}
+
+header.primeirocabesalho > a{
+
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+header.primeirocabesalho > a:hover{
+
+    background-color: rgb(45, 107, 45);
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+header > h1{
+
+    color: white;
+    text-align: center;
+}
+
+header > p{
+
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contedudo Principal A baixo de header */
+
+.fontandroid{
+
+    font-family: 'android', Arial, Helvetica, sans-serif;
+
+}
+
+main.principal{
+
+    background-color: white;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+main.principal > h2{
+
+        font-family: 'android', Arial, Helvetica, sans-serif;
+    
+}
+
+main.principal > h3{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+main >  p > a.danmorrill {
+
+    background-color: lightgreen;
+}
+
+main >  p > a.inkscape {
+
+    background-color: lightgreen;
+}
+
+main.principal > h2.textoverde{
+    font-family: 'android',Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+.principal > img.irina{
+    margin-left: 30px;
+    border-radius: 4px;
+}
+
+.principal > img.bugdroid{
+    margin-left: 30%;
+}
+
+.principal > .youtube{
+    background-color: darkgreen;
+    padding:20px 18%;
+}
+.principal > .secundaria{
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 20px;
+}
+
+.principal > .secundaria > header{
+    margin-top: 25px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 6px 8px;
+    margin-left:-5px ;
+    margin-right: -5px;
+
+}
+
+
+.principal > .secundaria > .listadaesquerda{
+
+    text-align: left;
+    margin-left: -2%;
+}
+
+.principal > .secundaria > .listadadireita{
+    margin-left: 54%;
+    margin-top: -140px;
+}
+
+footer{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
