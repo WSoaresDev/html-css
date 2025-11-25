@@ -15,8 +15,15 @@
 
         table {
             margin: auto;
+            position: relative;
             width: 500px;
             border-collapse: collapse;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
         }
         
         td, th {
@@ -33,8 +40,12 @@
             text-align: center;
         }
 
+        tbody tr:nth-child(2n) {
+            background-color: rgb(173, 173, 173);
+        }
+
         caption {
-            background-color: black;
+            background-color: rgb(104, 93, 93);
             color: white;
             padding: 10px;
             font-size: 1.5em;
@@ -62,8 +73,10 @@
     <table>
         <caption>Km² Por Estados</caption>
         <thead>
-            <th>Estado</th>
-            <th style="width: 140px;">Área por (Km²)</th>
+            <tr>
+                <th>Estado</th>
+                <th style="width: 140px;">Área por (Km²)</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -74,10 +87,6 @@
                 <td>Pará</td>
                 <td class="num">1 245 870,798</td>
             </tr>
-            <tr>
-                <td> Mato Grosso</td>
-                <td class="num">903 207,184 710</td>
-            <tr>
             <tr> 
                 <td>Minas Gerais</td>
                 <td class="num">586 521,123</td>
@@ -174,6 +183,10 @@
                 <td> Distrito Federal</td>
                 <td claa="num"> 135 5312 535 1352</td>
             </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">120 174 64</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
@@ -183,5 +196,16 @@
             
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illum similique voluptatibus reprehenderit laudantium. Facere deleniti molestiae exercitationem ab earum nihil maxime voluptates? Nostrum, temporibus? Repudiandae doloribus fugiat ducimus harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla, distinctio eaque natus ea omnis eligendi alias blanditiis, mollitia ipsa ab autem ex asperiores voluptatibus id commodi officiis modi error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel incidunt rem nisi, excepturi, suscipit sapiente atque iusto nesciunt deleniti temporibus minus porro maiores sit, voluptas sint quaerat maxime nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem ratione quam esse vero, architecto impedit quos debitis voluptates? Eveniet iure quisquam nemo blanditiis error unde aspernatur eaque. Fugit, autem.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illum similique voluptatibus reprehenderit laudantium. Facere deleniti molestiae exercitationem ab earum nihil maxime voluptates? Nostrum, temporibus? Repudiandae doloribus fugiat ducimus harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla, distinctio eaque natus ea omnis eligendi alias blanditiis, mollitia ipsa ab autem ex asperiores voluptatibus id commodi officiis modi error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel incidunt rem nisi, excepturi, suscipit sapiente atque iusto nesciunt deleniti temporibus minus porro maiores sit, voluptas sint quaerat maxime nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem ratione quam esse vero, architecto impedit quos debitis voluptates? Eveniet iure quisquam nemo blanditiis error unde aspernatur eaque. Fugit, autem.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illum similique voluptatibus reprehenderit laudantium. Facere deleniti molestiae exercitationem ab earum nihil maxime voluptates? Nostrum, temporibus? Repudiandae doloribus fugiat ducimus harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla, distinctio eaque natus ea omnis eligendi alias blanditiis, mollitia ipsa ab autem ex asperiores voluptatibus id commodi officiis modi error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel incidunt rem nisi, excepturi, suscipit sapiente atque iusto nesciunt deleniti temporibus minus porro maiores sit, voluptas sint quaerat maxime nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem ratione quam esse vero, architecto impedit quos debitis voluptates? Eveniet iure quisquam nemo blanditiis error unde aspernatur eaque. Fugit, autem.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illum similique voluptatibus reprehenderit laudantium. Facere deleniti molestiae exercitationem ab earum nihil maxime voluptates? Nostrum, temporibus? Repudiandae doloribus fugiat ducimus harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla, distinctio eaque natus ea omnis eligendi alias blanditiis, mollitia ipsa ab autem ex asperiores voluptatibus id commodi officiis modi error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel incidunt rem nisi, excepturi, suscipit sapiente atque iusto nesciunt deleniti temporibus minus porro maiores sit, voluptas sint quaerat maxime nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem ratione quam esse vero, architecto impedit quos debitis voluptates? Eveniet iure quisquam nemo blanditiis error unde aspernatur eaque. Fugit, autem.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illum similique voluptatibus reprehenderit laudantium. Facere deleniti molestiae exercitationem ab earum nihil maxime voluptates? Nostrum, temporibus? Repudiandae doloribus fugiat ducimus harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla, distinctio eaque natus ea omnis eligendi alias blanditiis, mollitia ipsa ab autem ex asperiores voluptatibus id commodi officiis modi error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel incidunt rem nisi, excepturi, suscipit sapiente atque iusto nesciunt deleniti temporibus minus porro maiores sit, voluptas sint quaerat maxime nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem ratione quam esse vero, architecto impedit quos debitis voluptates? Eveniet iure quisquam nemo blanditiis error unde aspernatur eaque. Fugit, autem.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illum similique voluptatibus reprehenderit laudantium. Facere deleniti molestiae exercitationem ab earum nihil maxime voluptates? Nostrum, temporibus? Repudiandae doloribus fugiat ducimus harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nulla, distinctio eaque natus ea omnis eligendi alias blanditiis, mollitia ipsa ab autem ex asperiores voluptatibus id commodi officiis modi error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vel incidunt rem nisi, excepturi, suscipit sapiente atque iusto nesciunt deleniti temporibus minus porro maiores sit, voluptas sint quaerat maxime nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio exercitationem ratione quam esse vero, architecto impedit quos debitis voluptates? Eveniet iure quisquam nemo blanditiis error unde aspernatur eaque. Fugit, autem.</p>
 </body>
 </html>
