@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style> 
+        body {
+            font-family: sans-serif, arial, helvetica;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            margin: auto;
+            width: 500px;
+            border-collapse: collapse;
+        }
+        
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        caption {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <h1>Uso de Grandes Tabelas</h1>
+    <table>
+        <caption>Km² Por Estados</caption>
+        <thead>
+            <th>Estado</th>
+            <th style="width: 140px;">Área por (Km²)</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">1 559 167,889</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">1 245 870,798</td>
+            </tr>
+            <tr>
+                <td> Mato Grosso</td>
+                <td class="num">903 207,184 710</td>
+            <tr>
+            <tr> 
+                <td>Minas Gerais</td>
+                <td class="num">586 521,123</td>
+            </tr>    
+            <tr>
+                <td>Bahia</td>
+                <td class="num">564 760,427</td>
+            </tr>
+            <tr>
+                <td> Mato Grosso do Sul</td>
+                <td class="num">357 145,534</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">340 203,329</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">329 642,182</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">1 366 966 65</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">75535 5 53591595</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num"> 26623 2623632</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num"> 65547757 2  34</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="num">164 178986  1555</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">619591  6 6913 6</td>
+            </tr>
+            <tr>
+                <td> Paraná</td>
+                <td class="num">1235716 6 5123</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">186936 11 060  53 </td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">10969  2975 375273 2 </td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="num">807 019 375956</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9326405 3512751  57437 </td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td claa="num">1368901 1  16938 4698</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td claa="num">13576 236 33332</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Norte</td>
+                <td claa="num">6956 193826  233</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td claa="num">53812606 6396  52863</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td claa="num">32o 891972 13 2368</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td claa="num">917173 12353</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td claa="num">5321215 35 3</td>
+            </tr>
+            <tr>
+                <td> Distrito Federal</td>
+                <td claa="num"> 135 5312 535 1352</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Área total de Km²</th>
+                <td>625 175 381 135</td>
+            </tr>
+            
+        </tfoot>
+    </table>
+</body>
+</html>
