@@ -36,6 +36,7 @@ nav {
 
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-end
 }
 
 header > nav > a {
