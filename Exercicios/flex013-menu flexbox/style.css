@@ -26,14 +26,10 @@ header {
 }
 
 header > h1 {
-    border: 1px dashed black;
     flex: 0 0 200px;
-
 }
 
 nav {
-    border: 1px dashed black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end
